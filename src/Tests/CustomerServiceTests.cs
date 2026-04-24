@@ -2,6 +2,7 @@ using Application.DTOs;
 using Application.Interfaces;
 using Application.Services;
 using Domain;
+using Microsoft.Extensions.Logging;
 using Xunit;
 using Moq;
 
@@ -10,12 +11,14 @@ namespace Tests;
 public class CustomerServiceTests
 {
     private readonly Mock<ICustomerRepository> _repoMock;
+    private readonly Mock<ILogger<CustomerService>> _loggerMock;
     private readonly CustomerService _service;
 
     public CustomerServiceTests()
     {
         _repoMock = new Mock<ICustomerRepository>();
-        _service = new CustomerService(_repoMock.Object);
+        _loggerMock = new Mock<ILogger<CustomerService>>();
+        _service = new CustomerService(_repoMock.Object, _loggerMock.Object);
     }
 
     [Fact]

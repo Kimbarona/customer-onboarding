@@ -13,3 +13,4 @@ C:\Users\Kim\OneDrive\Desktop\Xurpas Tech. Assessment\customer-onboarding\src\Ap
 C:\Users\Kim\OneDrive\Desktop\Xurpas Tech. Assessment\customer-onboarding\src\Application\obj\Debug\net10.0\refint\Application.dll
 C:\Users\Kim\OneDrive\Desktop\Xurpas Tech. Assessment\customer-onboarding\src\Application\obj\Debug\net10.0\Application.pdb
 C:\Users\Kim\OneDrive\Desktop\Xurpas Tech. Assessment\customer-onboarding\src\Application\obj\Debug\net10.0\ref\Application.dll
+C:\Users\Kim\OneDrive\Desktop\Xurpas Tech. Assessment\customer-onboarding\src\Application\obj\Debug\net10.0\Application.sourcelink.json

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "a6wbVNVT2uM=",
+  "dgSpecHash": "siZ3j9Eylxs=",
   "success": true,
   "projectFilePath": "C:\\Users\\Kim\\OneDrive\\Desktop\\Xurpas Tech. Assessment\\customer-onboarding\\src\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Kim\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\Kim\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
